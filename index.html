@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+        <link href="style.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1>Html Css cheet sheet</h1>
+                <ul>
+                    <li><a href="#html">Html</a></li>
+                    <li><a href="#css">Css</a></li>
+                    <li><a href="#relativepath">Realtive path</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="html">
+                <h2>Html Table tags</h2>
+                <article>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Tag</td>
+                                <td>Name</td>
+                                <td>Description</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>&lt;table&gt;</td>
+                                <td>Table</td>
+                                <td>The wrapper element for all HTML table</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;thead&gt;</td>
+                                <td>Table Head</td>
+                                <td>The set of row defining the column headers in a table</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;tbody&gt;</td>
+                                <td>Table Body</td>
+                                <td>The set of row containing the actual data in a table</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;tr&gt;</td>
+                                <td>Table Row</td>
+                                <td>The table row container</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;td&gt;</td>
+                                <td>Table Description</td>
+                                <td>The table row container</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;tfoot&gt;</td>
+                                <td>Table Footer</td>
+                                <td>The set of row defining the footer in the table</td>
+                            </tr>
+                        </tbody>
+                    </table>
+    
+                </article>
+            </section>
+    
+            <section id="css">
+                <h2>Css</h2>
+                <article>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>selector</td>
+                                <td>Description</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>*</td>
+                                <td>for all element</td>
+                            </tr>
+                            <tr>
+                                <td>div</td>
+                                <td>for div tags</td>
+                            </tr>
+                            <tr>
+                                <td>div,p</td>
+                                <td>for all divs and paragraph</td>
+                            </tr>
+                            <tr>
+                                <td>div p</td>
+                                <td>for all paragraph inside divs</td>
+                            </tr>
+                            <tr>
+                                <td>div>p</td>
+                                <td>for all p one level deep in div</td>
+                            </tr>
+                            <tr>
+                                <td>div + p</td>
+                                <td>p tags immediately after div</td>
+                            </tr>
+                            <tr>
+                                <td>div ~ p</td>
+                                <td>p tags preceded by div</td>
+                            </tr>
+                            <tr>
+                                <td>.classname</td>
+                                <td>all element with the class</td>
+                            </tr>
+                            <tr>
+                                <td>#idname</td>
+                                <td>element with ID</td>
+                            </tr>
+                            <tr>
+                                <td>div.classname</td>
+                                <td>divs with certain classname</td>
+                            </tr>
+                            <tr>
+                                <td>div#idname</td>
+                                <td>div with certain ID</td>
+                            </tr>
+                            <tr>
+                                <td>#idname*</td>
+                                <td>all the elements inside the specific id</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+    
+                </article>
+            </section>
+
+            <section id="relativepath">
+                <h2>Relative path</h2>
+                <article>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>path with filename</td>
+                                <td>Description</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>picture.jpg</td>
+                                <td>The "picture.jpg" is located in the same folder as the current page</td>
+                            </tr>
+                            <tr>
+                                <td>images/picture.jpg</td>
+                                <td>The "picture.jpg" is located in the images folder as the current page</td>
+                            </tr>
+                            <tr>
+                                <td>/images/picture.jpg</td>
+                                <td>The "picture.jpg" is located in the images folder at the root of current page</td>
+                            </tr>
+                            <tr>
+                                <td>../picture.jpg</td>
+                                <td>The "picture.jpg" is located one level up from the current page</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <p>&copy; cheatsheet 2024</p>
+            </div>
+        </footer>
+        
+    </body>
+</html>
